@@ -1,4 +1,4 @@
-Description: Tests for reddit.com
+Description: This file from task 1
 
 Scenario: Smoke test
 Given I am on the main application page
