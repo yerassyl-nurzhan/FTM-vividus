@@ -12,6 +12,5 @@ When I send HTTP POST to the relative URL '/1/boards/${boardId}/members?key=f955
 Then the response code is equal to '200'
 Then JSON element by JSON path `$.email` is equal to `${email}`
 
-
 Examples:
 |email|roman_bellic@epam.com|Niko_Bellic@epam.com|Tommy_Vercetti@epam.com|
